@@ -1,3 +1,8 @@
+
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+
 /*
 
 TemplateMo 567 Nomad Force
@@ -19,8 +24,8 @@ https://templatemo.com/tm-567-nomad-force
   --title-color:                  #565758;
   --p-color:                      #717275;
 
-  --body-font-family:           'Noto Sans JP';
-
+ --body-font-family:           /*  'Noto Sans JP'  ; */ 'Amiri';
+ --sec-font-family: 'Droid Arabic Kufi';
   --h1-font-size:               72px;
   --h2-font-size:               42px;
   --h3-font-size:               36px;
@@ -78,6 +83,7 @@ h2 {
 h1 {
   font-size: var(--h1-font-size);
   line-height: normal;
+  
 }
 
 h2 {
@@ -647,6 +653,8 @@ strong {
   .news-two-column {
     min-height: 232.5px;
   }
+
+
 }
 
 @media screen and (max-width: 991px) {
